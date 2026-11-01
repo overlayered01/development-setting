@@ -1,0 +1,52 @@
+# Virtual env
+.venv/
+.venv*/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Runtime / outputs
+logs/
+tmp/
+out/
+outputs/
+artifacts/
+.cache/
+*.log
+*.tmp
+*.bak
+*.pid
+
+# Downloaded models
+*.onnx
+*.onnx.part
+*.engine
+*.trt
+*.gguf
+
+# Secrets / runtime-generated config
+.env
+config/*_result.json
+config/device_config.json
+
+# AI tools
+.claude/
+.serena/
+.mcp.json
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+# AI tools
+.claude/
+.mcp.json
+.serena/
+
+# OS
+.DS_Store
+Thumbs.db

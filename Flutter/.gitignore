@@ -1,0 +1,38 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+*.g.dart.bak
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata.bak
+
+# Platform build outputs
+android/.gradle/
+android/app/.cxx/
+android/local.properties
+android/key.properties
+ios/Pods/
+ios/.symlinks/
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+macos/Flutter/ephemeral/
+
+# Secrets
+*.jks
+*.keystore
+.env
+
+# AI tools
+.claude/
+.serena/
+.mcp.json
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db

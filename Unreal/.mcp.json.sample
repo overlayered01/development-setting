@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "ue-mcp": {
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "ue-mcp",
+        "E:/Work/<프로젝트폴더>/sources/<xxx>.unreal/<ProjectName>/<ProjectName>.uproject"
+      ],
+      "env": {
+        "npm_config_cache": "E:/Work/<프로젝트폴더>/sources/<xxx>.unreal/<ProjectName>/.npm-cache"
+      }
+    }
+  }
+}

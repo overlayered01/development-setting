@@ -1,0 +1,23 @@
+{
+    "screen": {
+        "screenWidth": 1920,
+        "screenHeight": 1080,
+        "isBorderless": true,
+        "isTopMost": false,
+        "windowPositionX": 0,
+        "windowPositionY": 0
+    },
+    "network": {
+        "host": "127.0.0.1",
+        "port": 18080,
+        "reconnect_delay_seconds": 2.0
+    },
+    "content": {
+        "videoFolder": "C:\\ezwith\\data\\{productName}\\Videos",
+        "imageFolder": "C:\\ezwith\\data\\{productName}\\Images"
+    },
+    "timing": {
+        "fadeSeconds": 0.25,
+        "idleTimeoutSeconds": 60
+    }
+}
